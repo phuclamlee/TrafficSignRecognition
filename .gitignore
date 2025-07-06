@@ -1,0 +1,6 @@
+runs/
+TrafficSignCodeAndName.xlsx
+trafficSignDataSet/
+models/yolov8m.pt
+
+

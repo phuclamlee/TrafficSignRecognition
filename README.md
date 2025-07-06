@@ -44,7 +44,7 @@ pip install -r requirements.txt
 Shows the model’s ability to distinguish between different traffic sign classes.  
 A dark diagonal means many correct predictions, while off-diagonal elements indicate confusion between classes.
 
-![Confusion Matrix](runs/detect/train3/confusion_matrix.png)
+![confusion_matrix.png](charts/confusion_matrix.png)
 
 ---
 
@@ -52,23 +52,20 @@ A dark diagonal means many correct predictions, while off-diagonal elements indi
 
 Indicates how the F1-score varies with different confidence thresholds.
 
-![F1 Curve](runs/detect/train3/F1_curve.png)
+![F1_curve.png](charts/F1_curve.png)
 
 ---
 
 ### 5.3. Class Distribution
 
 Number of samples per class in the dataset.
-
-![Class Distribution](runs/detect/train3/labels.jpg)
-
+![labels.jpg](charts/labels.jpg)
 ---
 
 ### 5.4. Training Metrics
 
 Shows the evolution of loss, mAP, precision, and recall during training and validation.
-
-![Training Results](runs/detect/train3/results.png)
+![results.png](charts/results.png)
 
 ---
 
